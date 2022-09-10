@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.note.new {
+  background-color: rgb(37, 225, 140);
+}
+
+textarea {
+  border: none;
+  outline: none;
+  background-color: rgb(37, 225, 140);
+  resize: none;
+  font-size: 15px;
+}
+
+.save {
+  background-color: #e1e1e1;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.save:hover {
+  background-color: rgb(10, 159, 252);
+}
+
+.note-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.note {
+  min-height: 170px;
+  padding: 1rem;
+  background-color: rgb(240, 240, 23);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note span {
+  width: 200px;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+}
