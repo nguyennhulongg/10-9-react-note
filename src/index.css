@@ -39,7 +39,7 @@ textarea {
   outline: none;
   padding: 5px 10px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .save:hover {
@@ -62,11 +62,24 @@ textarea {
   justify-content: space-between;
 }
 
-.note span {
-  width: 200px;
-}
-
 .note-footer {
   display: flex;
   justify-content: space-between;
+}
+
+.search {
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 32px;
+}
+
+.search input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #e1e1e1;
+  font-size: 15px;
 }
